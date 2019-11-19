@@ -3,7 +3,8 @@ const app = express();
 const router = express.Router();
 const ObjectID = require('mongodb').ObjectID;
 const loginRouter = require('./login/login');
-const customerRouter =require("./customer/customerCTRL")
+const customerRouter =require("../controllers/customerCTRL");
+const usersRouter =require("../controllers/userCTRL");
 
 router.post('/auth/login',loginRouter.authorizationLogin);
 
@@ -13,4 +14,6 @@ router.post("/update", customerRouter.updateProfile);
 router.post("/change/:id", customerRouter.changeRememberIsTrue);
 router.post("/change/remember/:id", customerRouter.changeRememberIsfalse);
 
+router.get("/users",usersRouter.getUsers);
+router.post("/users",usersRouter.addUser);
 module.exports = router;
