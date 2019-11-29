@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2fa123b-0344-4540-915a-2cdc20d0f9c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/userCTRL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/userCTRL.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userCTRL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/customer/customerCTRL.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/customerCTRL.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial.js" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +29,11 @@
   </component>
   <component name="ProjectId" id="1QHBuNn7vW3t33wTVHXWVLibcke" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -50,25 +50,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/node_modules" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/routes/customer" />
       <recent name="$PROJECT_DIR$/routes/login" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/node_modules" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -84,7 +84,20 @@
       <updated>1571745354229</updated>
       <workItem from="1571745355694" duration="8702000" />
       <workItem from="1573969391629" duration="3925000" />
-      <workItem from="1574183312379" duration="361000" />
+      <workItem from="1574183312379" duration="4417000" />
+      <workItem from="1574274369913" duration="454000" />
+      <workItem from="1574313857474" duration="6654000" />
+      <workItem from="1574321881064" duration="16801000" />
+      <workItem from="1574490064999" duration="3282000" />
+      <workItem from="1574622277201" duration="599000" />
+      <workItem from="1574752671021" duration="599000" />
+      <workItem from="1574771370892" duration="3000" />
+      <workItem from="1574772635792" duration="63000" />
+      <workItem from="1574781037970" duration="362000" />
+      <workItem from="1574781656647" duration="616000" />
+      <workItem from="1574784938188" duration="860000" />
+      <workItem from="1574832676613" duration="993000" />
+      <workItem from="1574862187561" duration="1377000" />
     </task>
     <servers />
   </component>
@@ -103,5 +116,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="490" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1574781078423">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="490" y="155" width="424" height="484" key="FileChooserDialogImpl/49.27.1317.741@49.27.1317.741" timestamp="1574781078423" />
   </component>
 </project>

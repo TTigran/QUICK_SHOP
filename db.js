@@ -1,4 +1,4 @@
-npconst mongoose = require('mongoose');
+const mongoose = require('mongoose');
 const url = 'mongodb://localhost:27017/mydb';
 mongoose.connect(url,(err)=>{
     if(!err){
