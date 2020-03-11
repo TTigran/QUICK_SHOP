@@ -14,7 +14,6 @@ const getUsers = (req, res) => {
       console.log('Error' + JSON.stringify(err, undefined, 2));
     }
   });
-
 };
 
 const getById = (req, res) => {
@@ -31,9 +30,7 @@ const getById = (req, res) => {
 };
 
 const addUser = (req, res) => {
-  console.log(req.body);
-
-  var users = new Users({
+  let users = new Users({
     name: req.body.name,
     surname: req.body.surname,
     role: req.body.role,
@@ -48,14 +45,12 @@ const addUser = (req, res) => {
     }
   })
 };
-//
-const updateById = (req, res) => {
 
+const updateById = (req, res) => {
   if (!ObjectId.isValid(req.params.id)) {
     return res.status(400).send('No recort  given  to  Id:' + `${req.params.id}`)
   }
-
-  var users = {
+  let users = {
     name: req.body.name,
     surname: req.body.surname,
     role: req.body.role,
@@ -86,7 +81,7 @@ const deleteById = (req, res) => {
 };
 
 const authorizationLogin = (req, res) => {
-  Users.findOne({email: req.body.email}, (err, doc) => {
+  Users.findOne({email: req.body.username}, (err, doc) => {
     if (!err) {
       if (doc) {
         let token = jwt.sign({
@@ -122,10 +117,8 @@ const authorizationLogin = (req, res) => {
 
 
 const veryficationUser = (req,res) => {
-   console.log(req.body.token)
-   let decoded = jwt.verify(req.body.token, tokenSecret);
-   console.log(decoded)
-   res.send(decoded);
+  let decoded = jwt.verify(req.body.token, tokenSecret);
+  res.send(decoded);
 };
 
 module.exports = {
